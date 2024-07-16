@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const RateMovieButton = ({movieId}) => {
+export default function RateMovieButton({movieId}){
   const [rating, setRating] = useState(null);
   const [message, setMessage] = useState('');
 
@@ -20,5 +20,3 @@ const RateMovieButton = ({movieId}) => {
     </div>
   );
 };
-
-export default RateMovieButton;

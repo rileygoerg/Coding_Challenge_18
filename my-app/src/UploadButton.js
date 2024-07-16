@@ -5,7 +5,8 @@ export default function UploadButton(){
 
   function upload() {
     setUploading(true);
-    alert('Uploading Image');
+    alert('Uploading Image....');
+    alert('Image uploaded.')
     setUploading(false);
   };
 
